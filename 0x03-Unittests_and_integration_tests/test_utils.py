@@ -1,7 +1,10 @@
+#!/usr/bin/env python3
+"""Tests for utilss"""
 import unittest
 from nose.tools import assert_equal
 from parameterized import parameterized, parameterized_class
 import utils
+
 
 class TestAccessNestedMap(unittest.TestCase):
     """Class to test Access nested map"""
